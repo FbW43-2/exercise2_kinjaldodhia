@@ -8,12 +8,17 @@ body {
   background-color: beige;
 }
 
-.main-container {
-  width: 1500px;
-  height: 750px;
+h1 {
+  margin-top: 1%;
+  text-align: center;
 }
 
-.center {
+.main-container {
+  width: 80%;
+  height: 80%;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,32 +28,49 @@ body {
   border: solid 2px black;
 }
 .square-1 {
-  width: 400px;
-  height: 575px;
+  width: 30%;
+  height: 75%;
   margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .meme1 {
   width: 150px;
   height: 90px;
   margin: 40px;
+  background: url(/ex2images/gif);
+  background-size: cover;
+  background-position: center;
 }
 .meme2 {
-  width: 150px;
+  width: 100px;
   height: 90px;
   margin: 40px;
+  border-radius: 50%;
+  background: url(/ex2images/gif.webp);
+  background-size: cover;
+  background-position: center;
 }
 
 .meme3 {
-  width: 150px;
-  height: 90px;
+  width: 120px;
+  height: 100px;
   margin: 40px;
+  border-radius: 50%;
+  background: url(/ex2images/giphy.gif);
+  background-size: cover;
+  background-position: center;
 }
 
 .meme4 {
-  width: 150px;
-  height: 90px;
+  width: 180px;
+  height: 100px;
   margin: 40px;
+  background: url(/ex2images/giphy.webp);
+  background-size: cover;
+  background-position: center;
 }
 
 .square-2 {
